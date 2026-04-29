@@ -46,9 +46,8 @@ Execution Script → prod.sh
 Make sure you have **GROMACS** installed and properly configured.
 
 **Example execution:**
-
-
-'''bash prod.sh'''
+````markdown
+bash prod.sh
 
 Or run steps manually using:
 
