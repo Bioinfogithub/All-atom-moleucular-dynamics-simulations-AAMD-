@@ -56,18 +56,15 @@ gmx mdrun -deffnm em
 ````
 (Repeat similarly for NVT, NPT, and MD steps)
 
-🧪 Requirements
+**🧪 Requirements**
 GROMACS (version 2020 or later recommended)
 Linux/Unix environment
 Input structure files (.gro, .top, .itp)
-📌 Notes
+
+**📌 Notes**
 These .mdp files are generic templates and may need modification depending on:
 Force field used
 System type (protein, membrane, complex, etc.)
 Simulation time scale
 Ensure proper validation of parameters before running long simulations.
-````markdown
-## Test Code Block
 
-```bash
-echo "Hello MD Simulation"
