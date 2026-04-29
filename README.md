@@ -50,10 +50,10 @@ Make sure you have **GROMACS** installed and properly configured.
 bash prod.sh
 ````
 Or run steps manually using:
-
+````
 gmx grompp -f minim.mdp -c input.gro -p topol.top -o em.tpr
 gmx mdrun -deffnm em
-
+````
 (Repeat similarly for NVT, NPT, and MD steps)
 
 🧪 Requirements
