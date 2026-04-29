@@ -47,7 +47,7 @@ Make sure you have **GROMACS** installed and properly configured.
 
 **Example execution:**
 
-bash prod.sh
+'''bash prod.sh'''
 
 Or run steps manually using:
 
