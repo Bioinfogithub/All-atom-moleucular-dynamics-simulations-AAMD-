@@ -49,6 +49,10 @@ Make sure you have **GROMACS** installed and properly configured.
 ````markdown
 bash prod.sh
 ````
+or
+````
+qsub prod.sh
+````
 Or run steps manually using:
 ````
 gmx grompp -f minim.mdp -c input.gro -p topol.top -o em.tpr
