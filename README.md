@@ -1,36 +1,36 @@
-All-atom Molecular Dynamics Simulations (AAMD)
+**All-atom Molecular Dynamics Simulations (AAMD)**
 
 This repository contains essential input parameter files and a helper script required to set up and run all-atom molecular dynamics (AAMD) simulations using GROMACS.
 
-📁 Repository Contents
+📁 **Repository Contents**
 
 The following files are included to guide a standard MD simulation workflow:
 
-🔹 1. ions.mdp
+**🔹 1. ions.mdp**
 
 Defines parameters for ion addition to neutralize the system and achieve the desired ionic concentration. Typically used during the preprocessing step before equilibration.
 
-🔹 2. minim.mdp
+**🔹 2. minim.mdp**
 
 Contains settings for energy minimization, ensuring removal of steric clashes and unfavorable contacts in the system before starting dynamics.
 
-🔹 3. nvt.mdp
+**🔹 3. nvt.mdp**
 
 Used for NVT equilibration (constant Number, Volume, Temperature). Stabilizes the system temperature while keeping volume fixed.
 
-🔹 4. npt.mdp
+**🔹 4. npt.mdp**
 
 Defines parameters for NPT equilibration (constant Number, Pressure, Temperature). Allows the system density and pressure to equilibrate.
 
-🔹 5. md.mdp
+**🔹 5. md.mdp**
 
 Contains parameters for the production molecular dynamics run, where actual simulation data is collected for analysis.
 
-🔹 6. prod.sh
+**🔹 6. prod.sh**
 
 A shell script to automate the simulation workflow, typically including preprocessing, equilibration, and production MD steps.
 
-⚙️ Simulation Workflow
+**⚙️ Simulation Workflow**
 
 The files are organized to follow a standard GROMACS MD pipeline:
 
@@ -40,11 +40,12 @@ NVT Equilibration → nvt.mdp
 NPT Equilibration → npt.mdp
 Production Run → md.mdp
 Execution Script → prod.sh
-🚀 Usage
 
-Make sure you have GROMACS installed and properly configured.
+**🚀 Usage**
 
-Example execution:
+Make sure you have **GROMACS** installed and properly configured.
+
+**Example execution:**
 
 bash prod.sh
 
